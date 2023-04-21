@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import { useState } from 'react';
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Index from './components/Index';
-import {RoundedButton} from './components/Temp';
 
 function App() {
   const [mode, setMode] = useState('light')
@@ -48,7 +47,6 @@ function App() {
         {/* <Routes> */}
           {/* <Route path='/' element={ */}
           <Index mode={mode} dataTransfer={dataTransfer} data={message} />
-          <RoundedButton/>
           {/* <Route path='/about' element={<About/>}/> */}
         {/* </Routes> */}
       {/* </BrowserRouter> */}
